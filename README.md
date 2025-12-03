@@ -1,4 +1,39 @@
-<html> 
+<html>
+    <head>
+  <title>Dados</title>
+</head>
+<body>
+
+  <h1>Cadastrar Produtos</h1>
+
+  <form>
+    <label>Nome do produto:</label><br>
+    <input type="text" name="nome do produto"><br><br>
+
+    <label>Quantidade:</label><br>
+    <input type="number" name="quantidade"><br><br>
+
+    <label>Preço:</label><br>
+    <input type="text" name="preço"><br><br>
+
+    <label>Tipo De Produto:</label><br>
+    <select name="genero">
+      <option value="">Selecione</option>
+      <option value="perecíveis">Perecíveis</option>
+      <option value="não perecíveis">Não Perecíveis</option>
+      <option value="outro">Outro</option>
+    </select><br><br>
+
+    <label>Observações:</label><br>
+    <textarea name="observacoes" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+
+    <br>
+    <a href="index.html">Voltar para a Página Inicial</a>
+
+</html><html> 
     <head>
         <title>Dados</title>
     </head>
